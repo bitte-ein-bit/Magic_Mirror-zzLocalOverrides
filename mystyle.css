@@ -1,0 +1,93 @@
+.windsun {
+	float: left;
+}
+
+.forecast {
+	position: fixed;
+	top: 113px;
+	right: 0px;
+}
+.forecast-table .temp-max {
+    width: 56px;
+}
+
+.temp {
+	position: fixed;
+	top: 33px;
+	right: 145px;
+}
+
+.windsun {
+	position: fixed;
+	top: 50px;
+	right: 0px;
+}
+.wind, .sun {
+	float: left;
+	clear: both;
+}
+
+div {
+	/*border: 1px solid white;*/
+}
+
+.left
+{
+	position: absolute;
+	left: 0px;
+}
+
+.right
+{
+	position: absolute;
+	right: 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+.time {
+	position: fixed;
+	top: 33px;
+	left: 25px;
+}
+
+.date {
+	position: fixed;
+	top: 52px;
+	left: 250px;
+}
+
+.longdate, .dayname {
+	float: right;
+	clear: both;
+	text-align: right;
+}
+
+.calendar {
+	position: fixed;
+	top: 105px;
+	left: 0px;
+}
+
+.calendar-table{
+	width: 436px;
+}
+.calendar-table .event {
+	width: 100%;
+	display: block;
+}
+.calendar-table .description {
+	max-width: 280px;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.calendar-table .days {
+	height: 1.2em;
+	text-align: right;
+	white-space: nowrap;
+	width: 100px;
+}
